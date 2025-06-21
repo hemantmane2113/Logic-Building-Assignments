@@ -1,0 +1,6 @@
+When the operands of an equality operator are of the array type, it always evaluates to false.
+Reason: In C language, the name of an array refers to the address of the first element of the
+array and the addresses of first elements of two arrays can never be the same. Hence, when
+the operands of an equality operator are of array type, it always evaluates to false. Program
+4-6 illustrates the mentioned fact.
+Thank you for reading the file.
